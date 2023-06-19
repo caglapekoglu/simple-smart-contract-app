@@ -1,0 +1,25 @@
+.simplestore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+button{
+    background-color: #4646dd;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 10px;
+}
+input{
+    padding: 9px 22px;
+    border: 1px black solid;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px
+}
+input:focus {
+    outline: none;
+  }
+  button:disabled{
+    background-color: #828382;
+  }
